@@ -18,7 +18,7 @@ function Header() {
         {/* menu for small screens */}
         <div className="mobile-menu">
           <div onClick={() => setIsOpen(!isOpen)}>
-            <img class="menu-icon" src={mobileLogo} alt="menu icon" />
+            <img className="menu-icon" src={mobileLogo} alt="menu icon" />
           </div>
           {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
         </div>
