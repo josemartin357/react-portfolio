@@ -14,7 +14,7 @@ function About() {
           Life-long learner and passionate about technology.
         </div>
         <div className="about-photo">
-          <img src={codingPic} alt="coding-pic" />
+          <img src={codingPic} alt="coding-pic" className="picture" />
         </div>
       </div>
       <div className="about-bottom">This is contact</div>
