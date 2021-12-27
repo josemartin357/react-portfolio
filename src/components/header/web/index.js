@@ -16,6 +16,13 @@ function Web() {
       </div>
 
       <div className="web-option">
+        <a href="#summary">
+          <img className="option-icon" src={editLogo} alt="projects" />
+          About Me
+        </a>
+      </div>
+
+      <div className="web-option">
         <a href="#skills">
           <img className="option-icon" src={laptopLogo} alt="skills" />
           Skills

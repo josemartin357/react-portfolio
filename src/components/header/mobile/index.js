@@ -22,6 +22,13 @@ function Mobile({ isOpen, setIsOpen }) {
         </div>
 
         <div className="mobile-option">
+          <a href="#summary">
+            <img className="option-icon-small" src={editLogo} alt="about me" />
+            About Me
+          </a>
+        </div>
+
+        <div className="mobile-option">
           <a href="#skills">
             <img className="option-icon-small" src={laptopLogo} alt="skills" />
             Skills
