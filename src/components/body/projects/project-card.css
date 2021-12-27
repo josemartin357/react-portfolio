@@ -39,6 +39,11 @@
   color: black;
 }
 
+.project-links {
+  margin-top: 6px;
+  display: flex;
+}
+
 .link-button {
   display: flex;
   justify-content: center;
