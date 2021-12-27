@@ -9,7 +9,7 @@ function Web() {
   return (
     <div className="web">
       <div className="web-option">
-        <a href="#project">
+        <a href="#projects">
           <img className="option-icon" src={editLogo} alt="projects" />
           Projects
         </a>
