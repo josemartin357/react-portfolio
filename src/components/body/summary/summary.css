@@ -1,0 +1,37 @@
+.summary {
+  padding-bottom: 48px;
+}
+
+.summary-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 16px 0px;
+}
+
+.summary-picture {
+  height: 300px;
+  border-radius: 200px;
+  margin: 16px 0px;
+}
+
+.summary-info {
+  font-size: 20px;
+  max-width: 60%;
+  justify-content: flex-end;
+}
+
+/* media queries for tablet screens */
+@media only screen and (max-width: 720px) {
+  .summary-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .summary-picture {
+    height: 288px;
+  }
+  .summary-info {
+    font-size: 20px;
+  }
+}

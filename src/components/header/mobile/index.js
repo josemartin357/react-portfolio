@@ -15,7 +15,7 @@ function Mobile({ isOpen, setIsOpen }) {
 
       <div className="mobile-options">
         <div className="mobile-option">
-          <a href="#project">
+          <a href="#projects">
             <img className="option-icon-small" src={editLogo} alt="projects" />
             Projects
           </a>

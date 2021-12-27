@@ -5,12 +5,17 @@ import Contact from "./contact";
 import Projects from "./projects";
 import Skills from "./skills";
 import Work from "./work";
+import Summary from "./summary";
 
 function Body() {
   return (
     <div className="body">
       <section id="about">
         <About />
+      </section>
+
+      <section id="summary">
+        <Summary />
       </section>
 
       <section id="projects">
