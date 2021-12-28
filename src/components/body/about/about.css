@@ -1,5 +1,5 @@
 .about {
-  padding-bottom: 48px;
+  padding-bottom: 9%;
 }
 
 .about-top {
@@ -9,16 +9,17 @@
 }
 
 .picture {
-  height: 450px;
+  height: 500px;
 }
 
 .about-info {
-  font-size: 24px;
+  font-size: 30px;
+  max-width: 55%;
 }
 
 .info-name {
   color: #0a50b2;
-  font-size: 32px;
+  font-size: 40px;
 }
 
 /* media queries for tablet screens */

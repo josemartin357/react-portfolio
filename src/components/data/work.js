@@ -8,7 +8,7 @@ export const WorkData = [
     endDate: "February, 2022",
     companyLogo: require("./assets/smu-logo.png"),
     duties:
-      "Currently participating in an intense program, in which i learned front and back end web development. In it, I have developed various projects while maintaining an A as my average grade.",
+      'Currently participating in a fast-track program, in which I learned front and back-end web development. In it, I have developed various projects while maintaining an "A" as my average grade.',
   },
   {
     id: 2,
@@ -30,7 +30,7 @@ export const WorkData = [
     endDate: "December, 2016",
     companyLogo: require("./assets/nbcuniversal-logo.png"),
     duties:
-      "Created, executed and managed news and web content (articles, galleries, videos). Recognitions: Increased ratings in primetime and weekend shows. Various special projects recognized with Emmy awards.",
+      "Created, executed and managed tv and web content (articles, galleries, videos). Recognitions: Increased ratings in primetime and weekend shows. Many projects recognized with Emmy awards.",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ export const WorkData = [
     endDate: "March, 2015",
     companyLogo: require("./assets/tylermedia-logo.png"),
     duties:
-      "Managed news department and established short and long-term goals. Handled public information programs. Recognitions: Launched weekend shows, led App launch and created 1st bilingual meteorologists unit.",
+      "Managed news department and established short and long-term goals. Handled PR programs. Recognitions: Launched weekend shows, led App launch and created 1st bilingual meteorologists unit.",
   },
   {
     id: 5,
@@ -52,6 +52,6 @@ export const WorkData = [
     endDate: "July, 2013",
     companyLogo: require("./assets/tylermedia-logo.png"),
     duties:
-      "Selected content, created graphics and write stories. Also, promoted content on air, radio and social media.",
+      "Selected content, created graphics and write stories. Also, promoted content on tv, radio and social media.",
   },
 ];
