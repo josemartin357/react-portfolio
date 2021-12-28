@@ -15,7 +15,7 @@ function Summary() {
 
         <div className="summary-info">
           <p>
-            I consider myself to be a developer who is comfortable being
+            I consider myself a developer who is comfortable being
             uncomfortable.
           </p>
           {/* <br /> */}

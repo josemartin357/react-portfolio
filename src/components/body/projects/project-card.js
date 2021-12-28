@@ -1,5 +1,7 @@
 import React from "react";
 import "./project-card.css";
+import linkLogo from "./assets/link-icon.png";
+
 function ProjectCard({ project }) {
   return (
     <div className="project-card">
@@ -8,7 +10,7 @@ function ProjectCard({ project }) {
         <div className="project-links">
           <a className="project-link" href={project.demo}>
             <div className="link-button">
-              <i class="devicon-safari-plain colored"></i>
+              <img className="link-logo" src={linkLogo} alt="link logo" />
               Demo
             </div>
           </a>
@@ -20,7 +22,7 @@ function ProjectCard({ project }) {
             </div>
           </a>
         </div>
-        <p>{project.about}</p>
+        <p className="project-about">{project.about}</p>
         <div className="project-tags">
           {project.tags.map((tag) => {
             return <label className="tag">{tag}</label>;

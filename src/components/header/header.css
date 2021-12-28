@@ -30,9 +30,7 @@
 
 .logo {
   display: flex;
-  font-size: 36px;
-  color: tomato;
-  font-weight: 800;
+  height: 150px;
 }
 
 /* media query for large screens */

@@ -12,7 +12,7 @@ function About() {
           <br />
           <span className="info-name">Martin Bedoya.</span>
           <br />
-          Life-long learner and passionate about technology.
+          Life-long learner & passionate about technology.
         </div>
         <div className="about-photo">
           <img src={codingPic} alt="coding-pic" className="picture" />

@@ -17,6 +17,10 @@
   width: 70%;
 }
 
+.contact-desc {
+  font-size: 20px;
+}
+
 .contact-title {
   font-size: 36px;
   width: 80%;
@@ -37,16 +41,6 @@
   align-items: center;
   justify-content: center;
 }
-
-/* .c-icon {
-  width: 30px;
-  height: 30px;
-  margin-right: 20px;
-} */
-
-/* .contact-desc {
-  font-weight: 200;
-} */
 
 form {
   margin-top: 20px;
@@ -72,7 +66,7 @@ textarea {
 button {
   border: none;
   padding: 15px;
-  background-color: aquamarine;
+  background-color: #8fbeff;
   color: black;
   font-weight: 500;
   cursor: pointer;

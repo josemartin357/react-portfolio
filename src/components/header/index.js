@@ -3,13 +3,14 @@ import "./header.css";
 import Web from "./web/index";
 import Mobile from "./mobile/index";
 import mobileLogo from "./mobile/assets/apps.png";
+import mbLogo from "./assets/mb-logo.png";
 
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <div className="header">
-      <div className="logo">MB</div>
+      <img className="logo" src={mbLogo} alt="logo" />
       <div className="menu">
         {/* menu for large screens */}
         <div className="web-menu">

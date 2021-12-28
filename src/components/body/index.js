@@ -35,7 +35,7 @@ function Body() {
         <Contact />
       </section> */}
 
-      <section>
+      <section id="contact">
         <Email />
       </section>
     </div>

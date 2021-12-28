@@ -1,9 +1,19 @@
 import React from "react";
 import "./web.css";
 import editLogo from "./assets/edit-web.png";
+import aboutLogo from "./assets/about-me-icon.png";
 import laptopLogo from "./assets/laptop-web.png";
 import briefcaseLogo from "./assets/briefcase-web.png";
 import userLogo from "./assets/user-web.png";
+
+const styles = {
+  icon: {
+    width: "20%",
+  },
+  anchor: {
+    width: "120px",
+  },
+};
 
 function Web() {
   return (
@@ -16,8 +26,13 @@ function Web() {
       </div>
 
       <div className="web-option">
-        <a href="#summary">
-          <img className="option-icon" src={editLogo} alt="projects" />
+        <a href="#summary" style={styles.anchor}>
+          <img
+            className="option-icon"
+            style={styles.icon}
+            src={aboutLogo}
+            alt="about me"
+          />
           About Me
         </a>
       </div>
@@ -47,7 +62,3 @@ function Web() {
 }
 
 export default Web;
-
-{
-  /* <div>Icons made by <a href="https://www.flaticon.com/authors/becris" title="Becris">Becris</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> */
-}

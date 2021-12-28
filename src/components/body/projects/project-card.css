@@ -13,6 +13,7 @@
 
 .project-info {
   margin-right: 24px;
+  max-width: 50%;
 }
 
 .project-title {
@@ -28,7 +29,7 @@
 
 .tag {
   padding: 4px 8px;
-  background-color: aquamarine;
+  background-color: #8fbeff;
   border-radius: 4px;
   margin-right: 6px;
   margin-bottom: 4px;
@@ -44,16 +45,25 @@
   display: flex;
 }
 
+.link-logo {
+  height: 16px;
+}
+
+.project-about {
+  font-size: 20px;
+}
+
 .link-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: aquamarine;
+  background-color: transparent;
   width: max-content;
   padding: 4px 8px;
   border-radius: 4px;
   font-size: 16px;
   margin-right: 6px;
+  border: 1px solid black;
 }
 
 .link-button i {
