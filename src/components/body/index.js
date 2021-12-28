@@ -1,11 +1,12 @@
 import React from "react";
 import "./body.css";
 import About from "./about";
-import Contact from "./contact";
+// import Contact from "./contact";
 import Projects from "./projects";
 import Skills from "./skills";
 import Work from "./work";
 import Summary from "./summary";
+import Email from "./contact/email";
 
 function Body() {
   return (
@@ -30,8 +31,12 @@ function Body() {
         <Work />
       </section>
 
-      <section id="contact">
+      {/* <section id="contact">
         <Contact />
+      </section> */}
+
+      <section>
+        <Email />
       </section>
     </div>
   );

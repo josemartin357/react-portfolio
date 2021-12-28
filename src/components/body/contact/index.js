@@ -12,6 +12,7 @@ function Contact() {
         <div className="contact-left">
           <SocialContact />
         </div>
+
         <div className="download">
           <a
             download
