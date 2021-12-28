@@ -1,10 +1,32 @@
 import React from "react";
 import "./email.css";
-
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 import Separator from "../../common/separator/index";
 import SocialContact from "../../common/social-contact/index";
 
 const Email = () => {
+  const formRef = useRef();
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_00h9vrq",
+        "template_arlhmpa",
+        formRef.current,
+        "user_NXi2YqwrBa1FKxtgiWMO3"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <div className="contact-card">
       <Separator />
@@ -22,8 +44,7 @@ const Email = () => {
             <br />
             Feel free to contact me. I will get back to you ASAP.
           </p>
-
-          <form>
+          <form ref={formRef} onSubmit={handleSubmit}>
             <input type="text" placeholder="Your name" name="user_name" />
             <input type="text" placeholder="Subject" name="user_subject" />
             <input
