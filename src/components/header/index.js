@@ -24,7 +24,13 @@ function Header({ currentPage, handlePageChange }) {
           <div onClick={() => setIsOpen(!isOpen)}>
             <img className="menu-icon" src={mobileLogo} alt="menu icon" />
           </div>
-          {isOpen && <Mobile isOpen={isOpen} setIsOpen={setIsOpen} />}
+          {isOpen && (
+            <Mobile
+              handlePageChange={handlePageChange}
+              isOpen={isOpen}
+              setIsOpen={setIsOpen}
+            />
+          )}
         </div>
       </div>
     </div>
