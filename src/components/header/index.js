@@ -5,7 +5,7 @@ import Mobile from "./mobile/index";
 import mobileLogo from "./mobile/assets/apps.png";
 import mbLogo from "./assets/mb-logo.png";
 
-function Header() {
+function Header({ currentPage, handlePageChange }) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -14,7 +14,7 @@ function Header() {
       <div className="menu">
         {/* menu for large screens */}
         <div className="web-menu">
-          <Web />
+          <Web currentPage={currentPage} handlePageChange={handlePageChange} />
         </div>
         {/* menu for small screens */}
         <div className="mobile-menu">

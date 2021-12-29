@@ -8,19 +8,34 @@ import { validateEmail } from "../../../utils/helpers";
 
 const Email = () => {
   const formRef = useRef();
-  //   const [user_name, setUserName] = useState("");
-  //   const [user_subject, setUserSubject] = useState("");
-  //   const [user_email, setUserEmail] = useState("");
-  //   const [message, setMessage] = useState("");
 
-  //   if (!validateEmail(email)) {
-  //     alert('Email has the wrong format');
-  //     return;
-  //   }
+  const [userInfo, setUserInfo] = useState({
+    user_name: "",
+    user_subject: "",
+    user_email: "",
+    message: "",
+  });
 
+  // function to change setUserInfo
+  const handleChange = (event) => {
+    // curly braces to spread userInfo
+    // grabbing value of target.name
+    setUserInfo({ ...userInfo, [event.target.name]: event.target.value });
+  };
   //   using emailjs to send email messages to my personal email address
   const sendEmail = (e) => {
     e.preventDefault();
+    if (!validateEmail(userInfo.user_email)) {
+      alert("Email has the wrong format");
+      setUserInfo({
+        user_name: "",
+        user_subject: "",
+        user_email: "",
+        message: "",
+      });
+      return;
+    }
+
     emailjs
       .sendForm(
         "service_00h9vrq",
@@ -31,15 +46,17 @@ const Email = () => {
       .then(
         (result) => {
           console.log(result.text);
-
           alert(
             "Your email message was submitted. I will reply as soon as possible."
           );
+          setUserInfo({
+            user_name: "",
+            user_subject: "",
+            user_email: "",
+            message: "",
+          });
 
-          //   setUserName("");
-          //   setUserSubject("");
-          //   setUserEmail("");
-          //   setMessage("");
+          // window.location.reload(false);
         },
         (error) => {
           console.log(error.text);
@@ -66,25 +83,29 @@ const Email = () => {
           </p>
           <form ref={formRef} onSubmit={sendEmail}>
             <input
-              //   value={user_name}
+              value={userInfo.user_name}
+              onChange={(event) => handleChange(event)}
               type="text"
               placeholder="Your name"
               name="user_name"
             />
             <input
-              //   value={user_subject}
+              value={userInfo.user_subject}
+              onChange={(event) => handleChange(event)}
               type="text"
               placeholder="Subject"
               name="user_subject"
             />
             <input
-              //   value={user_email}
+              value={userInfo.user_email}
+              onChange={(event) => handleChange(event)}
               type="text"
               placeholder="Your email address"
               name="user_email"
             />
             <textarea
-              //   value={message}
+              value={userInfo.message}
+              onChange={(event) => handleChange(event)}
               rows="5"
               placeholder="Type your message"
               name="message"

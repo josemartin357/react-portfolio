@@ -15,11 +15,11 @@ const styles = {
   },
 };
 
-function Web() {
+function Web({ currentPage, handlePageChange }) {
   return (
     <div className="web">
       <div className="web-option">
-        <a href="#projects">
+        <a href="#projects" onClick={() => handlePageChange("Projects")}>
           <img className="option-icon" src={editLogo} alt="projects" />
           Projects
         </a>
