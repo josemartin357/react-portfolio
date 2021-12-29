@@ -1,3 +1,9 @@
+.active {
+  background-color: #f8f8ff;
+  border-radius: 5px;
+  border: 2px solid rgb(102 101 104);
+}
+
 .web {
   display: flex;
   flex: 1;

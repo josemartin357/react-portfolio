@@ -23,6 +23,7 @@ function Web({ currentPage, handlePageChange }) {
           href="#summary"
           onClick={() => handlePageChange("Summary")}
           style={styles.anchor}
+          className={currentPage === "Summary" ? "nav-link active" : "nav-link"}
         >
           <img
             className="option-icon"
@@ -35,28 +36,46 @@ function Web({ currentPage, handlePageChange }) {
       </div>
 
       <div className="web-option">
-        <a href="#skills" onClick={() => handlePageChange("Skills")}>
+        <a
+          href="#skills"
+          onClick={() => handlePageChange("Skills")}
+          className={currentPage === "Skills" ? "nav-link active" : "nav-link"}
+        >
           <img className="option-icon" src={laptopLogo} alt="skills" />
           Skills
         </a>
       </div>
 
       <div className="web-option">
-        <a href="#projects" onClick={() => handlePageChange("Projects")}>
+        <a
+          href="#projects"
+          onClick={() => handlePageChange("Projects")}
+          className={
+            currentPage === "Projects" ? "nav-link active" : "nav-link"
+          }
+        >
           <img className="option-icon" src={editLogo} alt="projects" />
           Projects
         </a>
       </div>
 
       <div className="web-option">
-        <a href="#work" onClick={() => handlePageChange("Work")}>
+        <a
+          href="#work"
+          onClick={() => handlePageChange("Work")}
+          className={currentPage === "Work" ? "nav-link active" : "nav-link"}
+        >
           <img className="option-icon" src={briefcaseLogo} alt="work" />
           Work
         </a>
       </div>
 
       <div className="web-option">
-        <a href="#contact" onClick={() => handlePageChange("Email")}>
+        <a
+          href="#contact"
+          onClick={() => handlePageChange("Email")}
+          className={currentPage === "Email" ? "nav-link active" : "nav-link"}
+        >
           <img className="option-icon" src={userLogo} alt="contact" />
           Contact
         </a>
