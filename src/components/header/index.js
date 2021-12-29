@@ -7,6 +7,7 @@ import mbLogo from "./assets/mb-logo.png";
 
 function Header({ currentPage, handlePageChange }) {
   const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen(!isOpen);
 
   return (
     <div className="header">
@@ -29,6 +30,7 @@ function Header({ currentPage, handlePageChange }) {
               handlePageChange={handlePageChange}
               isOpen={isOpen}
               setIsOpen={setIsOpen}
+              toggle={toggle}
             />
           )}
         </div>
