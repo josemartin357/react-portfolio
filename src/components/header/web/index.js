@@ -19,14 +19,11 @@ function Web({ currentPage, handlePageChange }) {
   return (
     <div className="web">
       <div className="web-option">
-        <a href="#projects" onClick={() => handlePageChange("Projects")}>
-          <img className="option-icon" src={editLogo} alt="projects" />
-          Projects
-        </a>
-      </div>
-
-      <div className="web-option">
-        <a href="#summary" style={styles.anchor}>
+        <a
+          href="#summary"
+          onClick={() => handlePageChange("Summary")}
+          style={styles.anchor}
+        >
           <img
             className="option-icon"
             style={styles.icon}
@@ -38,21 +35,28 @@ function Web({ currentPage, handlePageChange }) {
       </div>
 
       <div className="web-option">
-        <a href="#skills">
+        <a href="#skills" onClick={() => handlePageChange("Skills")}>
           <img className="option-icon" src={laptopLogo} alt="skills" />
           Skills
         </a>
       </div>
 
       <div className="web-option">
-        <a href="#work">
+        <a href="#projects" onClick={() => handlePageChange("Projects")}>
+          <img className="option-icon" src={editLogo} alt="projects" />
+          Projects
+        </a>
+      </div>
+
+      <div className="web-option">
+        <a href="#work" onClick={() => handlePageChange("Work")}>
           <img className="option-icon" src={briefcaseLogo} alt="work" />
           Work
         </a>
       </div>
 
       <div className="web-option">
-        <a href="#contact">
+        <a href="#contact" onClick={() => handlePageChange("Email")}>
           <img className="option-icon" src={userLogo} alt="contact" />
           Contact
         </a>

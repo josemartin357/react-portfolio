@@ -10,3 +10,8 @@
   align-items: center;
   margin: 24px 0px;
 }
+
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+}

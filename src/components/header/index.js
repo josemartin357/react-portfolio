@@ -10,7 +10,10 @@ function Header({ currentPage, handlePageChange }) {
 
   return (
     <div className="header">
-      <img className="logo" src={mbLogo} alt="logo" />
+      <a href="About">
+        <img className="logo" src={mbLogo} alt="logo" />
+      </a>
+
       <div className="menu">
         {/* menu for large screens */}
         <div className="web-menu">

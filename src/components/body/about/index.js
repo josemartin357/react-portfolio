@@ -1,5 +1,5 @@
 import React from "react";
-import SocialContact from "../../common/social-contact";
+// import SocialContact from "../../common/social-contact";
 import "./about.css";
 import codingPic from "./assets/coding-pic.png";
 
@@ -18,7 +18,7 @@ function About() {
           <img src={codingPic} alt="coding-pic" className="picture" />
         </div>
       </div>
-      <SocialContact />
+      {/* <SocialContact /> */}
     </div>
   );
 }

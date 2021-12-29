@@ -1,8 +1,12 @@
-.footer {
+.copyright {
   padding: 12px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 24px;
+  /* margin-top: 5px; */
   font-size: 18px;
+}
+
+.footer {
+  margin-top: 100px;
 }

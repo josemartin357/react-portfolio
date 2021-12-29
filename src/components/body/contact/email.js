@@ -71,16 +71,17 @@ const Email = () => {
         <div className="contact-left">
           <h1 className="contact-title">Let's get in touch!</h1>
           <div className="contact-info">
-            <SocialContact />
+            <p>
+              Got some ideas to improve an app? Feedback?
+              <br />
+              Feel free to contact me.
+              <br />I will get back to you ASAP.
+            </p>
           </div>
         </div>
 
         <div className="contact-right">
-          <p className="contact-desc">
-            Got some ideas to improve an app? Feedback?
-            <br />
-            Feel free to contact me. I will get back to you ASAP.
-          </p>
+          <p className="contact-desc">Fill out the form below to contact me</p>
           <form ref={formRef} onSubmit={sendEmail}>
             <input
               value={userInfo.user_name}

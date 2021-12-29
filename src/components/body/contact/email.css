@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   flex: 1;
+  /* height: 504px; */
 }
 
 .contact-wrapper {
@@ -14,7 +15,10 @@
 }
 
 .contact-info {
-  width: 70%;
+  width: 80%;
+  font-size: 20px;
+  margin-top: 15%;
+  line-height: 1;
 }
 
 .contact-desc {
