@@ -1,4 +1,4 @@
-# Techie-notes
+# REACT PORTFOLIO
 ![License: MIT](https://img.shields.io/apm/l/vim-mode?style=for-the-badge)
 
 
