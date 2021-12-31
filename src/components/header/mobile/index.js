@@ -5,6 +5,7 @@ import editLogo from "./assets/edit-small.png";
 import laptopLogo from "./assets/laptop-small.png";
 import briefcaseLogo from "./assets/briefcase-small.png";
 import userLogo from "./assets/user-small.png";
+import aboutLogo from "./assets/about-me-icon.png";
 
 function Mobile({ isOpen, setIsOpen, toggle, handlePageChange }) {
   return (
@@ -26,7 +27,12 @@ function Mobile({ isOpen, setIsOpen, toggle, handlePageChange }) {
               toggle();
             }}
           >
-            <img className="option-icon-small" src={editLogo} alt="about me" />
+            <img
+              className="option-icon-small"
+              style={{ height: "26px" }}
+              src={aboutLogo}
+              alt="about me"
+            />
             About Me
           </a>
         </div>
