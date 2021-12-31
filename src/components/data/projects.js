@@ -7,8 +7,9 @@ export const ProjectData = [
     tags: ["NodeJS", "ExpressJS", "MySQL", "Bulma CSS"],
     demo: "https://lux-rentals.herokuapp.com/",
     github: "https://github.com/josemartin357/LUX",
-    image:
-      "https://github.com/josemartin357/martin-bedoya-portfolio/blob/main/images/lux-newscreenshot.png?raw=true",
+    // image:
+    //   "https://github.com/josemartin357/martin-bedoya-portfolio/blob/main/images/lux-newscreenshot.png?raw=true",
+    image: require("./assets/lux-portfolio.png"),
   },
   {
     id: 2,
@@ -18,8 +19,9 @@ export const ProjectData = [
     tags: ["ExpressJS", "NodeJS", "MySQL", "Bootstrap"],
     demo: "https://techie-blog-mb.herokuapp.com/",
     github: "https://github.com/josemartin357/Tech-notes",
-    image:
-      "https://github.com/josemartin357/martin-bedoya-portfolio/blob/main/images/Tech-blog-screen.png?raw=true",
+    // image:
+    //   "https://github.com/josemartin357/martin-bedoya-portfolio/blob/main/images/Tech-blog-screen.png?raw=true",
+    image: require("./assets/blog-portfolio.png"),
   },
 
   {
@@ -30,8 +32,9 @@ export const ProjectData = [
     tags: ["NodeJS", "ExpressJS", "MongoDB", "Heroku"],
     demo: "https://myamazingworkout.herokuapp.com/",
     github: "https://github.com/josemartin357/fitness-tracker",
-    image:
-      "https://github.com/josemartin357/martin-bedoya-portfolio/blob/main/images/fitness-screen.png?raw=true",
+    // image:
+    //   "https://github.com/josemartin357/martin-bedoya-portfolio/blob/main/images/fitness-screen.png?raw=true",
+    image: require("./assets/fitness-portfolio.png"),
   },
   {
     id: 4,
@@ -46,8 +49,9 @@ export const ProjectData = [
     ],
     demo: "https://mrtofuuu.github.io/GifCast/",
     github: "https://github.com/josemartin357/GifCast",
-    image:
-      "https://github.com/josemartin357/martin-bedoya-portfolio/blob/main/images/gifcast-screenshot.png?raw=true",
+    // image:
+    //   "https://github.com/josemartin357/martin-bedoya-portfolio/blob/main/images/gifcast-screenshot.png?raw=true",
+    image: require("./assets/gifcast-portfolio.png"),
   },
 
   {
