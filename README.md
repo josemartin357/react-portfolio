@@ -21,30 +21,44 @@ Desktop homepage
 
 <br/>
 Desktop About section
+
+
 ![desktop-about](https://user-images.githubusercontent.com/83382332/147804638-1c18a3f2-e410-4bfe-8485-72dc72814dfa.png)
 
 <br/>
 Desktop skills section
+
+
 ![desktop-skills](https://user-images.githubusercontent.com/83382332/147804647-135a1d97-e828-4fad-92ed-d4beda6fa230.png)
 
 <br/>
 Desktop projects section
+
+
 ![desktop-projects](https://user-images.githubusercontent.com/83382332/147804662-3d2dae9d-4be4-4a61-b542-4e8dc7462b1c.png)
 
 <br/>
 Desktop timeline section
+
+
 ![desktop-timeline](https://user-images.githubusercontent.com/83382332/147804677-cc0ae989-751f-44da-9086-cc7eb6ede309.png)
 
 <br/>
 Desktop contact section
+
+
 ![desktop-contact](https://user-images.githubusercontent.com/83382332/147804684-73d155c7-c26b-4486-9624-d0b0ed1c0397.png)
 
 <br/>
 Table homepage section
+
+
 ![tablet-homepage](https://user-images.githubusercontent.com/83382332/147804701-683b56ba-42b0-4460-8cb6-d19fa8e9d176.png)
 
 <br/>
 Mobile homepage version
+
+
 ![mobile-homepage](https://user-images.githubusercontent.com/83382332/147804733-7f3de41b-c9e0-4301-b07b-003b2adedcc6.png)
 
 
