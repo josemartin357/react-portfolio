@@ -17,6 +17,8 @@ React-based portfolio with components for the main page, about, projects, work, 
 
 ## Screenshot sample
 Desktop homepage
+
+
 ![desktop-homepage](https://user-images.githubusercontent.com/83382332/147804619-3d039622-f9aa-4163-b3df-582690055086.png)
 
 <br/>
