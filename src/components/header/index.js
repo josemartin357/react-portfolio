@@ -11,7 +11,7 @@ function Header({ currentPage, handlePageChange }) {
 
   return (
     <div className="header">
-      <a href="About">
+      <a href="https://josemartin357.github.io/react-portfolio/">
         <img className="logo" src={mbLogo} alt="logo" />
       </a>
 
