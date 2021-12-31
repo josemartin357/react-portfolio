@@ -8,7 +8,7 @@ import userLogo from "./assets/user-web.png";
 
 const styles = {
   icon: {
-    width: "20%",
+    width: "16%",
   },
   anchor: {
     width: "120px",
@@ -54,7 +54,12 @@ function Web({ currentPage, handlePageChange }) {
             currentPage === "Projects" ? "nav-link active" : "nav-link"
           }
         >
-          <img className="option-icon" src={editLogo} alt="projects" />
+          <img
+            className="option-icon"
+            style={styles.icon}
+            src={editLogo}
+            alt="projects"
+          />
           Projects
         </a>
       </div>
@@ -76,7 +81,12 @@ function Web({ currentPage, handlePageChange }) {
           onClick={() => handlePageChange("Email")}
           className={currentPage === "Email" ? "nav-link active" : "nav-link"}
         >
-          <img className="option-icon" src={userLogo} alt="contact" />
+          <img
+            className="option-icon"
+            style={styles.icon}
+            src={userLogo}
+            alt="contact"
+          />
           Contact
         </a>
       </div>
