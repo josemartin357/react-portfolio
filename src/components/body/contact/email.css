@@ -76,6 +76,7 @@ button {
   cursor: pointer;
   border-radius: 4px;
   font-family: "Work Sans", sans-serif;
+  margin: 1% 42%;
 }
 
 @media only screen and (max-width: 720px) {
@@ -112,5 +113,10 @@ button {
 
   button {
     margin-top: 10px;
+  }
+  .form-message {
+    justify-content: center;
+    display: flex;
+    flex: 1;
   }
 }

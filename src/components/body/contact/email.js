@@ -16,6 +16,9 @@ const Email = () => {
     message: "",
   });
 
+  // MB: TEST ERROR MESSAGES
+  const [formMessage, setFormMessage] = useState("");
+
   // function to change setUserInfo
   const handleChange = (event) => {
     // curly braces to spread userInfo
@@ -26,7 +29,9 @@ const Email = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     if (!validateEmail(userInfo.user_email)) {
-      alert("Email has the wrong format");
+      // alert("Email has the wrong format");
+      // MB: TEST ERROR
+      setFormMessage("Your email is invalid.");
       setUserInfo({
         user_name: "",
         user_subject: "",
@@ -34,6 +39,8 @@ const Email = () => {
         message: "",
       });
       return;
+    } else {
+      setFormMessage("");
     }
 
     emailjs
@@ -46,7 +53,7 @@ const Email = () => {
       .then(
         (result) => {
           console.log(result.text);
-          alert(
+          setFormMessage(
             "Your email message was submitted. I will reply as soon as possible."
           );
           setUserInfo({
@@ -111,6 +118,8 @@ const Email = () => {
               placeholder="Type your message"
               name="message"
             />
+            {/* TESTING ERROR MESSAGE */}
+            {formMessage && <p className="form-message">{formMessage}</p>}
             <button>SUBMIT</button>
           </form>
         </div>
