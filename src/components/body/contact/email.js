@@ -3,20 +3,16 @@ import "./email.css";
 import { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import Separator from "../../common/separator/index";
-import SocialContact from "../../common/social-contact/index";
 import { validateEmail } from "../../../utils/helpers";
 
 const Email = () => {
   const formRef = useRef();
-
   const [userInfo, setUserInfo] = useState({
     user_name: "",
     user_subject: "",
     user_email: "",
     message: "",
   });
-
-  // MB: TEST ERROR MESSAGES
   const [formMessage, setFormMessage] = useState("");
 
   // function to change setUserInfo
@@ -24,13 +20,23 @@ const Email = () => {
     // curly braces to spread userInfo
     // grabbing value of target.name
     setUserInfo({ ...userInfo, [event.target.name]: event.target.value });
+    if (!userInfo.user_name) {
+      setFormMessage("Username is required");
+    } else if (!userInfo.user_subject) {
+      setFormMessage("A subject is required");
+    } else if (!userInfo.user_email) {
+      setFormMessage("An email address is required");
+    } else if (!userInfo.message) {
+      setFormMessage("A message is required");
+    } else {
+      setFormMessage("");
+    }
   };
-  //   using emailjs to send email messages to my personal email address
-  const sendEmail = (e) => {
-    e.preventDefault();
+
+  //   function using emailjs to send email messages to my personal email address
+  const sendEmail = (event) => {
+    event.preventDefault();
     if (!validateEmail(userInfo.user_email)) {
-      // alert("Email has the wrong format");
-      // MB: TEST ERROR
       setFormMessage("Your email is invalid.");
       setUserInfo({
         user_name: "",
@@ -62,8 +68,6 @@ const Email = () => {
             user_email: "",
             message: "",
           });
-
-          // window.location.reload(false);
         },
         (error) => {
           console.log(error.text);
@@ -118,8 +122,11 @@ const Email = () => {
               placeholder="Type your message"
               name="message"
             />
-            {/* TESTING ERROR MESSAGE */}
-            {formMessage && <p className="form-message">{formMessage}</p>}
+            <div>
+              {/* if formMessage is true, go ahead and render <p> tag */}
+              {formMessage && <p className="form-message">{formMessage}</p>}
+            </div>
+
             <button>SUBMIT</button>
           </form>
         </div>
