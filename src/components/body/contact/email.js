@@ -89,6 +89,14 @@ const Email = () => {
               <br />I will get back to you ASAP.
             </p>
           </div>
+          <div className="download">
+            <a
+              download
+              href={require("../../common/assets/martinbedoyadec21resume.pdf")}
+            >
+              Download Resume
+            </a>
+          </div>
         </div>
 
         <div className="contact-right">
