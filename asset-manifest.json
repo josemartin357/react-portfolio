@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.1152bfd8.css",
-    "main.js": "/react-portfolio/static/js/main.f6afa2bc.js",
+    "main.css": "/react-portfolio/static/css/main.7fd430ac.css",
+    "main.js": "/react-portfolio/static/js/main.171fb3ac.js",
     "static/js/787.cf250828.chunk.js": "/react-portfolio/static/js/787.cf250828.chunk.js",
     "static/media/nbcuniversal-logo.png": "/react-portfolio/static/media/nbcuniversal-logo.d526c13b13371df8e890.png",
     "static/media/coding-pic.png": "/react-portfolio/static/media/coding-pic.14ba3c29f991786fdb13.png",
@@ -10,15 +10,16 @@
     "static/media/blog-portfolio.png": "/react-portfolio/static/media/blog-portfolio.dc5f59722cb4cea4e93f.png",
     "static/media/lux-portfolio.png": "/react-portfolio/static/media/lux-portfolio.9f9d18eec94620732778.png",
     "static/media/fitness-portfolio.png": "/react-portfolio/static/media/fitness-portfolio.560ba7ed7d0c5dc507a9.png",
+    "static/media/martinbedoyadec21resume.pdf": "/react-portfolio/static/media/martinbedoyadec21resume.a62659e72ced42add781.pdf",
     "static/media/martin-bedoya-profile.png": "/react-portfolio/static/media/martin-bedoya-profile.188ec8ac1e35bf6ca134.png",
     "static/media/smu-logo.png": "/react-portfolio/static/media/smu-logo.77683e43280e59144818.png",
     "index.html": "/react-portfolio/index.html",
-    "main.1152bfd8.css.map": "/react-portfolio/static/css/main.1152bfd8.css.map",
-    "main.f6afa2bc.js.map": "/react-portfolio/static/js/main.f6afa2bc.js.map",
+    "main.7fd430ac.css.map": "/react-portfolio/static/css/main.7fd430ac.css.map",
+    "main.171fb3ac.js.map": "/react-portfolio/static/js/main.171fb3ac.js.map",
     "787.cf250828.chunk.js.map": "/react-portfolio/static/js/787.cf250828.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1152bfd8.css",
-    "static/js/main.f6afa2bc.js"
+    "static/css/main.7fd430ac.css",
+    "static/js/main.171fb3ac.js"
   ]
 }
