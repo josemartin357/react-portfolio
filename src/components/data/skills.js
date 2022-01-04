@@ -51,6 +51,10 @@ export const SkillsData = [
         name: "MongoDB",
         icon: <i class="devicon-mongodb-plain colored"></i>,
       },
+      {
+        name: "GraphQL",
+        icon: <i class="devicon-graphql-plain colored"></i>,
+      },
     ],
   },
 ];
