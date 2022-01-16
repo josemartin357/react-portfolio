@@ -33,9 +33,18 @@ export const ProjectData = [
     github: "https://github.com/josemartin357/react-portfolio",
     image: require("./assets/react-portfolio.png"),
   },
-
   {
     id: 4,
+    title: "Book Search Engine",
+    about:
+      "MERN stack app that uses Google Books API to search for books. In addition, users can sign-up/login to add or remove books from their saved books list.",
+    tags: ["ReactJS", "GraphQL", "MongoDB", "ExpressJS", "NodeJS"],
+    demo: "https://googlebooksretriever.herokuapp.com/",
+    github: "https://github.com/josemartin357/Book-search-engine",
+    image: require("./assets/booksearch-portfolio.png"),
+  },
+  {
+    id: 5,
     title: "My Amazing Workout",
     about:
       "Nosql-based fitness tracker application. App allows users to view, create and track daily workouts. Users can also log multiple exercises in a workout on a given day.",
@@ -47,7 +56,7 @@ export const ProjectData = [
     image: require("./assets/fitness-portfolio.png"),
   },
   {
-    id: 5,
+    id: 6,
     title: "GIFcast",
     about:
       "GIFcast is a weather tool using Open Weather Map API and GIPHY API. App lets users search the weather forecast an it will return a GIF depending on weather conditions, assigned thru a weather rating.",
@@ -64,7 +73,7 @@ export const ProjectData = [
     image: require("./assets/gifcast-portfolio.png"),
   },
   {
-    id: 6,
+    id: 7,
     title: "Budget Tracker",
     about:
       "Progressive Web Application that allows users to add expenses and deposits to their budgets with or without internet connection. If a transaction is added while offline, the app will populate the updated budget with the transaction when brought back online.",
@@ -74,7 +83,7 @@ export const ProjectData = [
     image: require("./assets/budget-portfolio.png"),
   },
   {
-    id: 7,
+    id: 8,
     title: "My To-Do List",
     about:
       "Heroku-deployed application that can be used by anyone to write and save notes. This application also allows the deletion of notes.",
@@ -84,7 +93,7 @@ export const ProjectData = [
     image: require("./assets/todo-portfolio.png"),
   },
   {
-    id: 8,
+    id: 9,
     title: "Work Day Scheduler",
     about:
       "Calendar application that allows a user to save events for each hour of the day. App has a current clock and the time blocks in the calendar will change colors depending on whether it is in the past, present or future.",
@@ -94,7 +103,7 @@ export const ProjectData = [
     image: require("./assets/scheduler-portfolio.png"),
   },
   {
-    id: 9,
+    id: 10,
     title: "Code Quiz",
     about:
       "Timed coding quiz to test your HTML and JS knowledge. Quiz includes multiple-choice questions and once all answers are submitted, users can see a list of higher scores.",
