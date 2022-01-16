@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.7fd430ac.css",
-    "main.js": "/react-portfolio/static/js/main.6efb9a09.js",
+    "main.js": "/react-portfolio/static/js/main.59e605a3.js",
     "static/js/787.cf250828.chunk.js": "/react-portfolio/static/js/787.cf250828.chunk.js",
     "static/media/nbcuniversal-logo.png": "/react-portfolio/static/media/nbcuniversal-logo.d526c13b13371df8e890.png",
     "static/media/coding-pic.png": "/react-portfolio/static/media/coding-pic.14ba3c29f991786fdb13.png",
@@ -16,14 +16,15 @@
     "static/media/martin-bedoya-profile.png": "/react-portfolio/static/media/martin-bedoya-profile.188ec8ac1e35bf6ca134.png",
     "static/media/todo-portfolio.png": "/react-portfolio/static/media/todo-portfolio.a70af46cb923be36e667.png",
     "static/media/scheduler-portfolio.png": "/react-portfolio/static/media/scheduler-portfolio.2607416ee7f255cc8ab6.png",
+    "static/media/booksearch-portfolio.png": "/react-portfolio/static/media/booksearch-portfolio.250b27e493bbf6e5164a.png",
     "static/media/smu-logo.png": "/react-portfolio/static/media/smu-logo.77683e43280e59144818.png",
     "index.html": "/react-portfolio/index.html",
     "main.7fd430ac.css.map": "/react-portfolio/static/css/main.7fd430ac.css.map",
-    "main.6efb9a09.js.map": "/react-portfolio/static/js/main.6efb9a09.js.map",
+    "main.59e605a3.js.map": "/react-portfolio/static/js/main.59e605a3.js.map",
     "787.cf250828.chunk.js.map": "/react-portfolio/static/js/787.cf250828.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7fd430ac.css",
-    "static/js/main.6efb9a09.js"
+    "static/js/main.59e605a3.js"
   ]
 }
